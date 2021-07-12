@@ -1,7 +1,10 @@
 * {
   margin: auto;
 }
-
+body {
+  background-color: #f0f6f6;
+  background-color: #eafffd;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -29,6 +32,9 @@ li a:hover {
 }
 .container {
   text-align: center;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .container h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -126,7 +132,7 @@ li a:hover {
   border-radius: 3px;
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-left: 60%;
+  /* margin-left: 60%; */
 }
 .source {
   color: gray;
@@ -165,7 +171,7 @@ th {
 }
 
 .tabl {
-  margin-left: 270px;
+  /* margin-left: 270px; */
   text-align: center;
 }
 .country {
